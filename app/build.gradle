@@ -32,14 +32,14 @@ android {
 
 
     kotlinOptions {
-        jvmTarget = "11"
+        jvmTarget = "17"
     }
     androidResources {
         noCompress 'tflite'
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_11
-        targetCompatibility JavaVersion.VERSION_11
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
     compileSdk 34
     buildToolsVersion '33.0.1'
