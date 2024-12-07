@@ -14,11 +14,11 @@ This app uses the camera preview as input and utilizes the Face Detection API to
 - Probability of left and/or right eye being open
 - Point positions of the lip contour
 
-Depending on the probability of smiling in addition to the "strength" of the smile using the middle and corner lip positions, different variations of smiling emojis are applied over the face. If one eye is closed, the wink emoji is used. If both eyes are closed, the sleeping emoji is used.
+Depending on the probability of smiling in addition to the "strength" of the smile using the lip positions, different variations of smiling emojis are applied over the face. If one eye is closed, the wink emoji is used. If both eyes are closed, the sleeping emoji is used.
 
 ## Limitations
 
-Originally the idea was to have this application work using AR glasses, making it a tool that can integrate seamlessly as one walks around wearing the glasses. Unfortunately, we were unable to get this working using the glasses. Another limitation was the lip contour data and the difficulty with accurately capturing frowns from these point positions. The point positions along the lip were not as helpful as we thought to detect "sad" faces. Perhaps the "face mesh" feature of the ML Kit would have proven to be more useful.
+Originally the idea was to have this application work using AR glasses, making it a tool that can integrate seamlessly as one walks around wearing the glasses. Unfortunately, we were unable to get this working using the glasses. Another limitation was the lip contour data and the difficulty with accurately capturing frowns from these point positions. The point positions along the lip were not as helpful as we thought to detect "sad" faces. Perhaps the face mesh feature of the ML Kit would have proven to be more useful for this case.
 
 ### Group members
 
@@ -26,3 +26,5 @@ Originally the idea was to have this application work using AR glasses, making i
 - Fady German
 - Fadime Konuk
 - Moreno Marrara
+
+_A group project developed in the course Advanced Software Development at FH Campus Wien during WS24/25_
